@@ -330,3 +330,54 @@ font-weight: 700;
     
     
 }
+
+/* Footer section */
+footer{
+    height: 40vh;
+    background: #0B0223;
+}
+.icon-contain{
+    /* margin-bottom: 100px; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.ft{
+    color: white;
+}
+.link-menu{
+    text-align: center;
+}
+.link-menu a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* margin: 0; */
+   
+}
+.fa-brands{
+    color: #FFF;
+}
+.icon-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 2.81rem;
+}
+.last-ft a{
+    margin-right: 50px;
+    /* margin: 0; */
+}
+.footer-p{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 1.2rem;
+font-weight: 500;
+
+}
