@@ -373,10 +373,25 @@ font-weight: 700;
 /* .fa-brands{
     color: #FFF;
 } */
-.icon-footer{
-    color: #FFF;
+.clickable{
+    color: white;
+    font-size:2.0rem ;
+    padding: 20px;
+}
+.icon-footer {
+    /* color: #FFF;
+    color:#FFF;
+    /* display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 2.81rem;
+    text-align: center; */
+
 }
 .icon-footer{
+    margin-top: 10px;
+    color:#FFF;
     display: flex;
     justify-content: center;
     align-items: center;
