@@ -69,3 +69,77 @@ nav{
     font-size: 2.81rem;
     
 }
+
+
+/* Banner section */
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-container{
+    
+}
+.banner-container{
+    background-image: url("/images/Group\ 14.png");
+    /* background-size: 4000px; */
+    background-blend-mode: overlay;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    /* background-image: 500px; */
+    background-size: auto;
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 2.81rem;
+    font-weight: 600;
+    margin: 0;
+     
+}
+.banner-go{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    margin: 10px 0;
+}
+.banner-play{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 10px 0;
+
+}
+.banner-download{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 10px 0 ;
+    
+}
+.banner-support{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.btn-left{
+    margin-top: 20px;
+    border-radius: 48px;
+    background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: 0;
+    padding: 15px 30px;
+    color: white;
+}
+.btn-right{
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: 0;
+    padding: 15px 30px;
+    color: white;
+}
+/* Banner section completed */
