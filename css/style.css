@@ -147,7 +147,13 @@ nav{
 /* Banner section completed */
 
 /* icon */
-.youtube{
+.youtube1{
+    color: #F61C0D;
+    /* padding: 10px; */
+    height: 20px;
+    /* fill: #F61C0D; */
+}
+.aa{
     color: #F61C0D;
     /* padding: 10px; */
     height: 20px;
@@ -360,9 +366,9 @@ footer{
     /* margin: 0; */
    
 }
-.fa-brands{
+/* .fa-brands{
     color: #FFF;
-}
+} */
 .icon-footer{
     display: flex;
     justify-content: center;

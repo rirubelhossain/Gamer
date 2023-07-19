@@ -1,4 +1,4 @@
-@media screen and (max-width:765px) {
+@media screen and (max-width:576px) {
     .nav-container{
        flex-direction: column;
        
@@ -17,6 +17,62 @@
 
     /* Banner section */
     .banner-container{
+        
         flex-direction: column;
     }
+    .content-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+       
+    }
+    .grid-container{
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .img-c{
+        width: 50%;
+    }
+    /* .img-container{
+        width: 10px;
+        height: 10px;
+    } */
+
+
+    .youtube{
+        color: #F61C0D;
+        /* padding: 10px; */
+        height: 20px;
+        /* fill: #F61C0D; */
+    }
+    .features{
+        flex-direction: column;
+    }
+     .section-games{
+        
+     }
+     .games{
+        flex-direction: column;
+        grid-template-columns: 50px 50px 50px;
+        /* align-items: center; */
+        gap: 100px;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        /* margin-left: 450px; */
+        
+    }
+    .games1{
+        flex-direction: column;
+        grid-template-columns: 50px 50px 50px ;
+        /* align-items: center; */
+        gap: 15px;
+        /* align-items: center; */
+        /* width: 50%; */
+        /* margin: auto; */
+        /* margin-left: 450px; */
+        margin-right: 300px;
+        
+    }
+      
 }
