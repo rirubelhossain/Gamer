@@ -204,3 +204,71 @@ nav{
     font-weight: 500;
     line-height: 30px;
 }
+
+/* Features */
+
+.features{
+    margin: 0 150px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+    align-items: center;
+    }
+.feat-img{
+    /* position: relative; */
+
+}
+.feature-content{
+    margin-bottom: 300px;
+    text-align: center;
+}
+.feat-sub-img{
+    /* border-radius: 8px; */
+    /* background: #FF900E; */
+    /* color: #FFF; */
+    /* width: 40px; */
+    /* padding: 40px; */
+    /* text-align: center; */
+    position: relative;
+    /* top: 100px; */
+    /* top: 100px; */
+    /* bottom: 20px; */
+    /* left: 300px; */
+    /* margin-right: 650px; */
+    bottom: 270px;
+    left: -150px;
+}
+.f-title-first{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* text-align: right; */
+
+font-size: 2.81rem;
+
+font-weight: 700;
+
+}
+.f-second{
+    /* text-align: right; */
+    
+    font-size: 2.81rem;
+    
+    font-weight: 700;
+
+    color: #0B0223;
+    text-align: right;
+    text-align: right;
+
+}
+.f-des{
+    color: #534C64;
+    text-align: right;
+    /* font-family: Work Sans; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
